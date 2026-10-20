@@ -1,0 +1,232 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ancho{
+  width: 1200px;
+  margin: auto;
+}
+.centrar{
+  text-align: center;
+}
+.margen{
+  border: 1px red solid;
+}
+.contenedor_menu{
+  border-bottom: 4px #d7d7d7 solid;
+  padding: 20px
+}
+.menus{
+  display: inline-block;
+}
+.menus a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menus a:hover{
+  background-color: aliceblue;
+}
+.contenedor_menu img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.boton_descargar{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 250px;
+  
+}
+.boton_descargar button{
+  background-color: white;
+  border-radius: 10px;
+  color: #0000FF;
+  border: 1px #0000FF solid;
+  padding: 10px 20px;
+}
+.contenedor_primero{
+  width: 1200px;
+  padding-top: 20px;
+}
+.contenedor_rapido{
+  width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor_rapido img{
+  width: 120px;
+}
+.contenedor_rapido h2{
+  font-size: 40px;
+  color: #333;
+}
+.contenedor_rapido p{
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contenedor_rapido button{
+  background-color: #0000FF;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 25px;
+}
+.contenedor_rapido span{
+  font-size: 12px;
+}
+.contenedor_computadora{
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor_computadora img{
+  width: 100%;
+}
+.contenedor_gris{
+  background-color: #F9F9FB;
+  width: 1200px;
+  margin-bottom: 20px;
+}
+.contenedor_dinosaurio{
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+.contenedor_dinosaurio img{
+  width: 50%;
+  object-fit: cover;
+}
+.contenedor_hacemos{
+  width: 49%;
+  padding-right: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.contenedor_hacemos h2{
+  font-size: 36px;
+  color: #333;
+}
+.contenedor_doscolumnas{
+  width: 1200px;
+}
+.impacto{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  padding: 50px 40px;
+  border-right: 3px #d7d7d7 solid;
+}
+.impacto a{
+  color: #0000FF;
+  font-weight: bold;
+}
+.innovaciones{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  padding: 50px 40px;
+}
+.innovaciones a{
+  color: #0000FF;
+  font-weight: bold;
+}
+.contenedor_trescolumnas{
+  
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+.extensiones{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+}
+.empleos{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+}
+.necesitas_ayuda{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+}
+.imagen_3{
+  width: 100px;
+}
+.subtitulos{
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 20px;
+}
+.formulario{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.imagen_formulario{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.imagen_formulario img{
+  text-align: center;
+}
+.texto_formulario{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.texto_formulario h2{
+  font-size: 50px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.texto_formulario input{
+  background-color: #F9F9FB;
+  border: #d7d7d7 1px solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 500px;
+}
+.texto_formulario button{
+  background-color: #333;
+  color: white;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+.texto_formulario span{
+  padding-left: 50px;
+}
+.ultimo_fondo{
+  margin-top: 50px;
+  background-color: black;
+  height: 100px;
+}
+.ultimo_fondo img{
+  margin-top: 35px;
+}
+
+
